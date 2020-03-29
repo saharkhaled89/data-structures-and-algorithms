@@ -131,16 +131,18 @@ const createList = (availableItems) => {
   // Solution code here...
   let nextArray = [];
 
-  for (let i = 0; i < availableItems.length; i++) {
+  availableItems.forEach(
+    (element=>{
+      if(element.available===true){
+        nextArray.push(element.name);
+      }
 
-    if (availableItems[i].available === true) {
-
-      nextArray.push(availableItems[i].name);
     }
-
-  }
+  ));
   return nextArray;
 };
+
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7
