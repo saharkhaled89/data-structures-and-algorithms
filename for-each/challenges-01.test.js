@@ -138,7 +138,7 @@ const createList = (availableItems) => {
       }
 
     }
-  ));
+    ));
   return nextArray;
 };
 
