@@ -12,8 +12,8 @@ const appendTheEnd = (str) => {
   // Solution code here...
 
   // Solution code here...
-  let String = str;
-  return `${String} The end.`;
+  let additional = str;
+  return `${additional} The end.`;
 
 
 };
