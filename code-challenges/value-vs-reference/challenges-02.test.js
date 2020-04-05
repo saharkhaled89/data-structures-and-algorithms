@@ -80,7 +80,7 @@ const setStatusAsAuthor = (people) => {
   // Solution code here...
   people.forEach(value => {
     value.isAuthor = true;
-}) 
+}) ;
 };
 
 /* ------------------------------------------------------------------------------------------------
