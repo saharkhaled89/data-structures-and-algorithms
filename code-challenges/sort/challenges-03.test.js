@@ -10,10 +10,9 @@ const sortBackwards = (arr) => {
   // Solution code here...
   arr.sort((a, b) => {
     return b - a;
-  })
+  });
   return arr;
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
@@ -56,7 +55,6 @@ const alphabetizeBetter = (arr) => {
   // Solution code here...
   return arr.sort((a, b) => a.toLowerCase() > b.toLowerCase());};
   // };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
