@@ -25,7 +25,7 @@ const howMuchPencil = (str) => {
 
 
 /* ------------------------------------------------------------------------------------------------
-CHALLENGE 2
+CHALLENGE 2challenge 2
 
 Write a function name wordsToCharList that, given a string as input, returns a new array where every element is a character of the input string.
 
